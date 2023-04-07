@@ -7,7 +7,7 @@ require (
 	github.com/go-logr/logr v1.2.4
 	github.com/go-logr/zerologr v1.2.3
 	github.com/open-feature/go-sdk v1.3.0
-	github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.7
+	github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.10
 	github.com/rs/zerolog v1.29.0
 )
 
@@ -15,7 +15,7 @@ require (
 	buf.build/gen/go/open-feature/flagd/bufbuild/connect-go v1.4.1-20221226184428-0dc62ff103b8.1 // indirect
 	buf.build/gen/go/open-feature/flagd/protocolbuffers/go v1.28.1-20221226184428-0dc62ff103b8.4 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/bufbuild/connect-go v1.5.1 // indirect
+	github.com/bufbuild/connect-go v1.5.2 // indirect
 	github.com/bytedance/sonic v1.8.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
@@ -37,7 +37,7 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/open-feature/flagd v0.3.7-0.20230210161723-e906757a4bac // indirect
+	github.com/open-feature/flagd v0.3.7 // indirect
 	github.com/open-feature/schemas v0.2.8 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
 	github.com/prometheus/client_golang v1.14.0 // indirect

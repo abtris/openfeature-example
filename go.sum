@@ -49,8 +49,8 @@ github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
-github.com/bufbuild/connect-go v1.5.1 h1:ORhrSiu63hWxtuMmC/V1mKySSRhEySsW5RkHJcyJXBk=
-github.com/bufbuild/connect-go v1.5.1/go.mod h1:9iNvh/NOsfhNBUH5CtvXeVUskQO1xsrEviH7ZArwZ3I=
+github.com/bufbuild/connect-go v1.5.2 h1:G4EZd5gF1U1ZhhbVJXplbuUnfKpBZ5j5izqIwu2g2W8=
+github.com/bufbuild/connect-go v1.5.2/go.mod h1:GmMJYR6orFqD0Y6ZgX8pwQ8j9baizDrIQMm1/a6LnHk=
 github.com/bytedance/sonic v1.5.0/go.mod h1:ED5hyg4y6t3/9Ku1R6dU/4KyJ48DZ4jPhfY1O2AihPM=
 github.com/bytedance/sonic v1.8.0 h1:ea0Xadu+sHlu7x5O3gKhRpQ1IKiMrSiHttPF0ybECuA=
 github.com/bytedance/sonic v1.8.0/go.mod h1:i736AoUSYt75HyZLoJW9ERYxcy6eaN6h4BZXU064P/U=
@@ -216,12 +216,12 @@ github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9G
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
-github.com/open-feature/flagd v0.3.7-0.20230210161723-e906757a4bac h1:OWj8wUHgkap4Bq5v8UAF65Wvdnils+WQPLFaOda7r1U=
-github.com/open-feature/flagd v0.3.7-0.20230210161723-e906757a4bac/go.mod h1:IQ/mfi0P0dL+4m9X9prbHc64fthbimr1CdZWppHcf70=
+github.com/open-feature/flagd v0.3.7 h1:cRIcZO2WcLx9y9RibhkV+GDU/pNtMbXoVId1bTDQOnU=
+github.com/open-feature/flagd v0.3.7/go.mod h1:IQ/mfi0P0dL+4m9X9prbHc64fthbimr1CdZWppHcf70=
 github.com/open-feature/go-sdk v1.3.0 h1:SiIS0ElVZTjbmHZB1/5Fm5mBRIqoYD+c2jVdw+D+Qok=
 github.com/open-feature/go-sdk v1.3.0/go.mod h1:hEOzRFh23MH+IZttR9+zyf5jBzotxxxcCjnk/wBH2H0=
-github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.7 h1:0s8reX/EfCNV37PsGSr55wUpppPtyp0jZKeuVAaWZ+4=
-github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.7/go.mod h1:dHB0hsYykZ1Un+CdnWErqLqUQswUADIvDg2VwDLx7gs=
+github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.10 h1:0QD8xsx35Ip6k7PcSdx/MEQq3ETEANKgRdz/pXjKtt4=
+github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.10/go.mod h1:IibpAPNmtUIJsJA6T4X1IcD4+BG1hCLw86luG8YQcqA=
 github.com/open-feature/schemas v0.2.8 h1:oA75hJXpOd9SFgmNI2IAxWZkwzQPUDm7Jyyh3q489wM=
 github.com/open-feature/schemas v0.2.8/go.mod h1:vj+rfTsOLlh5PtGGkAbitnJmFPYuTHXTjOy13kzNgKQ=
 github.com/pelletier/go-toml/v2 v2.0.6 h1:nrzqCb7j9cDFj2coyLNLaZuJTLjWjlaz6nvTvIwycIU=
