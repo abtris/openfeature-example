@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	flagd "github.com/open-feature/go-sdk-contrib/providers/flagd/pkg"
 	"github.com/open-feature/go-sdk/pkg/openfeature"
 )
 
@@ -12,7 +13,9 @@ const defaultMessage = "Hello!"
 const newWelcomeMessage = "Hello, welcome to this OpenFeature-enabled website!"
 
 func main() {
+	openfeature.SetProvider(flagd.NewProvider())
 	client := openfeature.NewClient("GoStartApp")
+
 	// Initialize Go Gin
 	engine := gin.Default()
 
