@@ -7,15 +7,15 @@ require (
 	github.com/go-logr/logr v1.2.4
 	github.com/go-logr/zerologr v1.2.3
 	github.com/open-feature/go-sdk v1.4.0
-	github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.12
+	github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.13
 	github.com/rs/zerolog v1.29.1
 )
 
 require (
-	buf.build/gen/go/open-feature/flagd/bufbuild/connect-go v1.5.2-20230222100723-491ee098dd92.1 // indirect
+	buf.build/gen/go/open-feature/flagd/bufbuild/connect-go v1.5.2-20230317150644-afd1cc2ef580.1 // indirect
 	buf.build/gen/go/open-feature/flagd/protocolbuffers/go v1.29.1-20230317150644-afd1cc2ef580.1 // indirect
-	github.com/bufbuild/connect-go v1.7.0 // indirect
-	github.com/bufbuild/connect-opentelemetry-go v0.1.0 // indirect
+	github.com/bufbuild/connect-go v1.8.0 // indirect
+	github.com/bufbuild/connect-opentelemetry-go v0.3.0 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
@@ -37,9 +37,9 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
-	go.opentelemetry.io/otel v1.14.0 // indirect
-	go.opentelemetry.io/otel/metric v0.37.0 // indirect
-	go.opentelemetry.io/otel/trace v1.14.0 // indirect
+	go.opentelemetry.io/otel v1.16.0 // indirect
+	go.opentelemetry.io/otel/metric v1.16.0 // indirect
+	go.opentelemetry.io/otel/trace v1.16.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
 	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/net v0.10.0 // indirect
