@@ -68,8 +68,8 @@ github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9G
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/open-feature/flagd/core v0.6.0 h1:sf8BR3YcggLJuUrpWKiknfhhSv2gVQ6hvQgZYmzQMok=
 github.com/open-feature/flagd/core v0.6.0/go.mod h1:gYf76egLbU3gYIX5B0720O0HPXnRiMRr4YTvAgQBTFc=
-github.com/open-feature/go-sdk v1.5.1 h1:ja1+XtWwqLqgJSFJ31sh+MCioVW4vWj5ya/e/f81y38=
-github.com/open-feature/go-sdk v1.5.1/go.mod h1:yllFTs5yJguao9zdcmYYGJBHTyBGwO2zC+GP2JeFR0o=
+github.com/open-feature/go-sdk v1.6.0 h1:9Wi8J77ORVKvm/8d1ZGKI7+/Uq+5JrpxylQ50DvZZnA=
+github.com/open-feature/go-sdk v1.6.0/go.mod h1:xR4RHexQNwvE/7IOR0LOiCuH+2wlQyoZwpAc4bp508o=
 github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.14 h1:SJFFwsIRE/i0Q1m1vQYPgT8oTD7Y7OHijLTJQQjzlgU=
 github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.14/go.mod h1:N4f+AHj58CaGQRRgkIcNnDkLjmiJucdql6jQwJ1cmEc=
 github.com/pelletier/go-toml/v2 v2.0.8 h1:0ctb6s9mE31h0/lhu+J6OPmVeDxJn+kYnJc2jZR9tGQ=
