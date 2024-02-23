@@ -6,7 +6,7 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-logr/logr v1.4.1
 	github.com/go-logr/zerologr v1.2.3
-	github.com/open-feature/go-sdk v1.9.0
+	github.com/open-feature/go-sdk v1.10.0
 	github.com/open-feature/go-sdk-contrib/providers/flagd v0.1.20
 	github.com/rs/zerolog v1.31.0
 )
@@ -95,7 +95,7 @@ require (
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
 	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
+	golang.org/x/exp v0.0.0-20240205201215-2c58cdc269a3 // indirect
 	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/net v0.18.0 // indirect
 	golang.org/x/oauth2 v0.11.0 // indirect
