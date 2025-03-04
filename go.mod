@@ -2,7 +2,7 @@ module github.com/abtris/openfeature-example
 
 go 1.21
 
-toolchain go1.22.4
+toolchain go1.24.1
 
 require (
 	github.com/gin-gonic/gin v1.10.0
