@@ -10,7 +10,7 @@ require (
 	github.com/go-logr/zerologr v1.2.3
 	github.com/open-feature/go-sdk v1.14.1
 	github.com/open-feature/go-sdk-contrib/providers/flagd v0.2.6
-	github.com/rs/zerolog v1.33.0
+	github.com/rs/zerolog v1.34.0
 )
 
 require (
