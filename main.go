@@ -9,7 +9,7 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/go-logr/zerologr"
 	flagd "github.com/open-feature/go-sdk-contrib/providers/flagd/pkg"
-	"github.com/open-feature/go-sdk/pkg/openfeature"
+	"github.com/open-feature/go-sdk/openfeature"
 	"github.com/rs/zerolog"
 )
 
@@ -27,9 +27,16 @@ func main() {
 	zl = zl.With().Caller().Timestamp().Logger()
 	var log logr.Logger = zerologr.New(&zl)
 
-	openfeature.SetLogger(log)
-	openfeature.SetProvider(flagd.NewProvider(flagd.WithoutCache()))
-	client := openfeature.NewClient("GoStartApp").WithLogger(log)
+	provider, err := flagd.NewProvider(flagd.WithoutCache(), flagd.WithLogger(log))
+	if err != nil {
+		log.Error(err, "creating flagd provider")
+		os.Exit(1)
+	}
+	if err := openfeature.SetProvider(provider); err != nil {
+		log.Error(err, "setting provider")
+		os.Exit(1)
+	}
+	client := openfeature.NewClient("GoStartApp")
 
 	// Initialize Go Gin
 	engine := gin.Default()
